@@ -1,7 +1,8 @@
 //Variables and Constants
-const rNames = document.getElementById("restaurantNames")
-const 
+const rList = document.getElementById("rList")
 
 //Creating the function to load the Restaurants
-function listRestaurants() {
+function listRestaurants(name) {
+    var button = document.createElement(button)
+    button.text = name;
 }
